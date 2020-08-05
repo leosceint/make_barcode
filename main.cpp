@@ -12,6 +12,6 @@ int main()
     copy(barcode_result.begin(), barcode_result.end(), ostream_iterator<bool>(cout, ""));
     
     cout << endl;
-    
+
     return 0;
 }
